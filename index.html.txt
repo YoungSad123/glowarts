@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GlowArt offers beautiful 3D night lamps for every room. Shop our collection of modern, creative designs.">
+    <meta name="keywords" content="3D lamps, night lights, home decor, glow lamps, modern lamps">
+    <meta name="author" content="GlowArt">
+    <title>GlowArt - 3D Night Lamps</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            background: #1e1e1e;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #FFD700;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('hero-lamp.jpg') no-repeat center center/cover;
+        }
+        .hero h1 {
+            font-size: 3em;
+            color: #FFD700;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero a {
+            text-decoration: none;
+            background: #FFD700;
+            color: #121212;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        .products {
+            padding: 50px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            background: #1e1e1e;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 15px 0 10px;
+            font-size: 1.2em;
+        }
+        .product p {
+            margin-bottom: 15px;
+            color: #bbb;
+        }
+        .product a {
+            text-decoration: none;
+            background: #FFD700;
+            color: #121212;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        footer {
+            background: #1e1e1e;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #bbb;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            .products {
+                flex-direction: column;
+            }
+            .product {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">GlowArt</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>GlowArt 3D Night Lamps</h1>
+        <p>Beautiful, modern, and perfect for every room. Discover the magic of 3D lighting.</p>
+        <a href="#products">Shop Now</a>
+    </section>
+
+    <section class="products" id="products">
+        <div class="product">
+            <img src="lamp1.jpg" alt="Starry Night 3D Lamp">
+            <h3>Starry Night Lamp</h3>
+            <p>$29.99</p>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="lamp2.jpg" alt="Heart Shape 3D Lamp">
+            <h3>Heart Shape Lamp</h3>
+            <p>$34.99</p>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="lamp3.jpg" alt="Galaxy Sphere 3D Lamp">
+            <h3>Galaxy Sphere Lamp</h3>
+            <p>$39.99</p>
+            <a href="#">Buy Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GlowArt. All rights reserved.</p>
+    </footer>
+</body>
+</html>
